@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RasporedDataModelStoreContainer" CdmEntityContainer="RasporedDataEntities">
+    <EntitySetMapping Name="Table">
+      <EntityTypeMapping TypeName="RasporedDataModel.Table">
+        <MappingFragment StoreEntitySet="Table">
+          <ScalarProperty Name="NAPOMENE" ColumnName="NAPOMENE" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="DAN" ColumnName="DAN" />
+          <ScalarProperty Name="PREDMET" ColumnName="PREDMET" />
+          <ScalarProperty Name="VRIJEME" ColumnName="VRIJEME" />
+          <ScalarProperty Name="PROFESOR" ColumnName="PROFESOR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

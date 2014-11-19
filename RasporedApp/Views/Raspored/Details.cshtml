@@ -1,0 +1,58 @@
+﻿@model RasporedApp.Models.Table
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Table</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DAN)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DAN)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PREDMET)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PREDMET)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VRIJEME)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VRIJEME)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PROFESOR)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PROFESOR)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NAPOMENE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NAPOMENE)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
